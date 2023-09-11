@@ -28,6 +28,8 @@ Our main objectives in our SW Engineering Department is building high quality so
 - We keep our code style consistent whenever we introduce a new pattern or design.
 - Any line of code should not exceed 80 characters.
 - We use [Trunk](https://trunk.io/products/check) to maintain our code styles. 
+- For Dart, use [official guidelines](https://dart.dev/effective-dart/style).
+- We recommend not committing commented code..
 
 ### Git Workflow
 
@@ -39,7 +41,7 @@ Our main objectives in our SW Engineering Department is building high quality so
   - A description of what this PR is all about both business and technical wise.
   - Major changes and deploying instruction if any.
   - Steps to QA and run the tests.
-- Branches must have a clear descriptive name prefixed by Jira task id. Sample `ago-11-create-user-endpoint`.
+- Branches must have a clear descriptive name prefixed by Jira task id. Sample `pers-11-create-user-endpoint`.
 - We use dashes in branch naming instead of underscores.
 - Each branch commit must have a clear.
 
@@ -51,3 +53,4 @@ Our main objectives in our SW Engineering Department is building high quality so
 2. Delivering Automated Tests are as important as delivering the feature itself. Delivering a feature without a sufficient organized tests is delivering an anomaly and not a delivery in any mean.
 3. Before assigning a reviewer for your PR, make sure to review your code first and make sure it follows our standards.
 4. We encourage pair programming practice.
+
